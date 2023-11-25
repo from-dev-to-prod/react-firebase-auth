@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  align-content: flex-start;
+  background-color: #141c22;
+  color: white;
+}
+
+h1,
+h2 {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+form {
+  padding: 56px;
+  min-width: 320px;
+  box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.15);
+}
+
+ul {
+  margin-bottom: 32px;
+}
+
+legend {
+  margin-bottom: 24px;
+  font-family: serif;
+  font-size: 48px;
+}
+
+label {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+
+input {
+  display: flex;
+  width: 320px;
+  height: 52px;
+  color: rgb(30, 30, 30);
+  outline: none;
+  padding: 0 16px;
+  font-size: 24px;
+}
+
+button {
+  background-color: #7a36d3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #964ef3;
+}
+
+form a {
+  display: inline-flex;
+  margin-top: 32px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  color: gold;
+  font-size: 16px;
+}
